@@ -1,0 +1,7 @@
+.powenv
+.env
+.rbenv-vars
+log/*
+tmp/*
+.DS_Store
+chromedriver.log
