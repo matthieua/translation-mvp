@@ -21,6 +21,7 @@ end
 
 
 gem 'jquery-rails'
+gem 'simple_form'
 
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
 gem 'turbolinks'
@@ -38,4 +39,4 @@ gem 'jbuilder', '~> 1.0.1'
 # gem 'capistrano', group: :development
 
 # To use debugger
-# gem 'debugger'
+gem 'debugger'

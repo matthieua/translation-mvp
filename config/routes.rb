@@ -14,6 +14,13 @@ TranslationMvp::Application.routes.draw do
   # Example resource route (maps HTTP verbs to controller actions automatically):
   #   resources :products
 
+  resources :users do
+    collection do
+      get :authorize
+      get :logged
+    end
+  end
+
   # Example resource route with options:
   #   resources :products do
   #     member do
