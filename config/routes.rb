@@ -17,7 +17,7 @@ TranslationMvp::Application.routes.draw do
   resources :users do
     collection do
       get :authorize
-      get :logged
+      get :authorized
     end
   end
 
